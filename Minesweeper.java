@@ -234,7 +234,7 @@ public class Minesweeper extends JFrame {
 	private void initUI() {
 		add(new Surface());
 		setTitle("Minesweeper");
-		setSize(Surface.WIDTH*30 + 1, Surface.HEIGHT*30 + 1);
+		setSize(Surface.WIDTH*30 + 1, Surface.HEIGHT*30 + 31);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
